@@ -1,0 +1,7 @@
+torch
+torchvision
+Pillow
+transformers
+numpy
+scikit-image
+pyinstaller
