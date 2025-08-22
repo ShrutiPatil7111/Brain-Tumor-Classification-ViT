@@ -22,21 +22,21 @@ This project was developed as part of our **Capstone Project**.
 ## 📊 GUI & Results
 
 ### Application Interface  
-<img src="GUI.png" alt="GUI Screenshot" width="600"/>  
+<img src="images/GUI.png" alt="GUI Screenshot" width="600"/>  
 
 ### Sample Prediction Result  
-<img src="Prediction.png" alt="Prediction Result" width="600"/>  
+<img src="images/Prediction.png" alt="Prediction Result" width="600"/>  
 
-<img src="Prediction_2.png" alt="Prediction Result" width="600"/>  
+<img src="images/Prediction_2.png" alt="Prediction Result" width="600"/>  
 
-<img src="Prediction_3.png" alt="Prediction Result" width="600"/>  
+<img src="images/Prediction_3.png" alt="Prediction Result" width="600"/>  
 
 ### Project Poster  
-<img src="Quantum_Poster.jpeg" alt="Quantum Poster" width="600"/>  
+<img src="images/Quantum_Poster.jpeg" alt="Quantum Poster" width="600"/>  
 
 ---
 
-## 🚀 Installation
+## ⚙️  Installation
 
 ### Option 1: Use Executable  
 Download the pre-built executable file here:  
@@ -58,7 +58,7 @@ Download the pre-built executable file here:
 
 ---
 
-**Usage:**
+**🖥️ Usage:**
 
 1. **Load an MRI image** using the file browser.
 2. **Select optional preprocessing steps:**
@@ -85,7 +85,7 @@ Download the pre-built executable file here:
 
 ---
 
-**Team:**
+**👩‍💻 Team:**
 
 * Shruti Patil 
 * Om Jadhav
@@ -94,7 +94,7 @@ Download the pre-built executable file here:
 
 ---
 
-**Contributing:**
+**🚀 Contributing:**
 
 Contributions to this project are welcome. Please feel free to fork the repository and submit pull requests.
 
