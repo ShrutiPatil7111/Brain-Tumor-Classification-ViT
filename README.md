@@ -1,18 +1,62 @@
-# Brain-Tumor-Classification-ViT
+# 🧠 Brain-Tumor-Classification-ViT
 
-This repository contains the code for a brain tumor classification system using Vision Transformers (ViTs), which is my capston project. The system is capable of classifying brain tumors into four categories: Meningioma, Glioma, Pituitary, and No Tumor.
+This repository contains the code for a **Brain Tumor Classification System** using **Vision Transformers (ViTs)**.  
+The model classifies MRI brain images into **four categories**:
+- Glioma  
+- Meningioma  
+- Pituitary  
+- No Tumor  
 
-**Key Features:**
+This project was developed as part of our **Capstone Project**.
 
-* **Accurate Classification:** Achieves high accuracy in classifying brain tumors using a pre-trained ViT model.
-* **Robustness to Noise:** Maintains high accuracy even with noisy or partially cropped MRI images.
-* **User-Friendly Interface:** Provides an intuitive graphical user interface for easy interaction.
-* **Cross-Platform Compatibility:** The application is packaged as an executable for easy deployment.
+---
 
-**Installation:**
+## ✨ Key Features
+- 🎯 **High Accuracy:** Achieves 99.6% accuracy on clean images.  
+- 🛡️ **Robustness to Noise:** Performs well on noisy / cropped MRI images.  
+- 🖥️ **Graphical User Interface (GUI):** Simple Tkinter app for predictions.  
+- 📦 **Cross-Platform Deployment:** Packaged as a Windows executable.  
 
-1. **Download the executable file** from the releases section.
-2. **Run the executable** on your Windows machine.
+---
+
+## 📊 GUI & Results
+
+### Application Interface  
+<img src="GUI.png" alt="GUI Screenshot" width="600"/>  
+
+### Sample Prediction Result  
+<img src="Prediction.png" alt="Prediction Result" width="600"/>  
+
+<img src="Prediction_2.png" alt="Prediction Result" width="600"/>  
+
+<img src="Prediction_3.png" alt="Prediction Result" width="600"/>  
+
+### Project Poster  
+<img src="Quantum_Poster.jpeg" alt="Quantum Poster" width="600"/>  
+
+---
+
+## 🚀 Installation
+
+### Option 1: Use Executable  
+Download the pre-built executable file here:  
+👉 [Download EXE](https://github.com/ShrutiPatil7111/Brain-Tumor-Classification-ViT/releases/tag/v01)
+
+### Option 2: Run from Source  
+1. Clone the repo:  
+   ```bash
+   git clone https://github.com/ShrutiPatil7111/Brain-Tumor-Classification-ViT.git
+   cd Brain-Tumor-Classification-ViT
+
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   
+3. Run the app:
+   ```bash
+   python brain_tumor_detection_app.py
+
+---
 
 **Usage:**
 
@@ -23,26 +67,23 @@ This repository contains the code for a brain tumor classification system using 
 3. **Click "Predict"** to classify the tumor.
 4. **View the classification results:** The predicted tumor type and probabilities will be displayed.
 
-**Dependencies:**
+---
 
-* Python
-* PyTorch
-* Torchvision
-* Transformers
-* Scikit-image
-* Pillow
-* Tkinter
-* PyInstaller (for packaging)
+**🛠️ Tech Stack:**
 
-**Note:**
+* **Deep Learning:** PyTorch, Hugging Face Transformers
+* **Preprocessing:** Scikit-image, Pillow
+* **GUI:** Tkinter
+* **Packaging:** PyInstaller
 
-* This project requires a compatible GPU for optimal performance. 
-* The provided executable is specifically designed for Windows systems.
+---
 
-**Contributing:**
+**📌 Notes:**
 
-Contributions to this project are welcome. Please feel free to fork the repository and submit pull requests.
+* Requires GPU for faster inference (CPU also supported, but slower). 
+* The dataset is not included due to licensing; pre-trained model weights are bundled in the .exe.
 
+---
 
 **Team:**
 
@@ -51,4 +92,10 @@ Contributions to this project are welcome. Please feel free to fork the reposito
 * Khushi Deshmukh
 * Atharv Kabade
 
-Download from [here](https://github.com/ShrutiPatil7111/Brain-Tumor-Classification-ViT/releases/tag/v01)
+---
+
+**Contributing:**
+
+Contributions to this project are welcome. Please feel free to fork the repository and submit pull requests.
+
+---
